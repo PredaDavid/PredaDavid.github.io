@@ -4,167 +4,121 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-    
-    <!-- Update these with your own fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Portfolio</title>
 </head>
 <body>
-    <header>
 
-        <button class="nav-toggle" aria-label="toggle navigation">
-            <span class="hamburger"></span>
-        </button>
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
-                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+
+    <div class="hero">
+
+        <nav>
+            <h2 class="logo">Portfo<span>lio</span></h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Contact Us</a></li>
             </ul>
+            <a href="#" class="btn">Subscribe</a>
         </nav>
-    </header>
-    
-    <!-- Introduction -->
-    <section class="intro" id="home">
-        <h1 class="section__title section__title--intro">
-            Hi, I am <strong>David Preda</strong>
-        </h1>
-        <p class="section__subtitle section__subtitle--intro">game developer</p>
-        <img src="" alt="" class="intro__img">
-    </section>
-    
-    
-    <!-- My services -->
-    <section class="my-services" id="services">
-        <h2 class="section__title section__title--services">What I do</h2>
-        <div class="services">
-            <div class="service">
-                <h3>Programmer</h3>
-                <p>From strategy games to fast-casual games I can write modular code that can fit a wide range of projects. </p>
-            </div> <!-- / service -->
-            
-            <div class="service">
-                <h3>Low poly post-processing</h3>
-                <p>People see before they buy. I can improve your game visuals resulting in more people getting interested in your game.</p>
-            </div> <!-- / service -->
-            
-            <div class="service">
-                <h3>Level designer</h3>
-                <p>I will create complex levels that are fun and interactive, engaging the player in the world of your game.</p>
-            </div> <!-- / service -->
-        </div> <!-- / services -->
-        
-        <a href="#work" class="btn">My Work</a>
-    </section>
-    
-    
-    <!-- About me -->
-    <section class="about-me" id="about">
-       <h2 class="section__title section__title--about">Who I am</h2>
-       <p class="section__subtitle section__subtitle--about">Programmer & developer </p>
-       
-       <div class="about-me__body">
-           <p>I am David and I start my game development journey using Unity three years ago. I have strong knowledge in multiple fields from level design to post-processing. I can bring your ideas into reality or improve your game.</p>
-       </div>
-       
-       <img src="" alt="" class="about-me__img">
-    </section>
-    
-    <!-- My Work -->
-    <section class="my-work" id="work">
-        <h2 class="section__title section__title--work">My work</h2>
-        <p class="section__subtitle section__subtitle--work">A selection of my work</p>
-        
-        <div class="portfolio">
-            <!-- Portfolio item 01 -->
-            <a href="#" class="portfolio__item">
-                <img src="img/a1.png" alt="" class="portfolio__img">
-            </a>
-            
-            <!-- Portfolio item 02 -->
-            <a href="#" class="portfolio__item">
-                <img src="img/portofolio-02.png" alt="" class="portfolio__img">
-            </a>
-            
-            <!-- Portfolio item 03 -->
-            <a href="#" class="portfolio__item">
-                <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
-            </a>
-            
-            <!-- Portfolio item 04 -->
-            <a href="#" class="portfolio__item">
-                <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
-            </a>
-            
-            <!-- Portfolio item 05 -->
-            <a href="#" class="portfolio__item">
-                <img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
-            </a>
-            
-            <!-- Portfolio item 06 -->
-            <a href="#" class="portfolio__item">
-                <img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
-            </a>
-            
-            <!-- Portfolio item 07 -->
-            <a href="#" class="portfolio__item">
-                <img src="img/portfolio-07.jpg" alt="" class="portfolio__img">
-            </a>
-            
-            <!-- Portfolio item 08 -->
-            <a href="#" class="portfolio__item">
-                <img src="img/portfolio-08.jpg" alt="" class="portfolio__img">
-            </a>
-            
-            <!-- Portfolio item 09 -->
-            <a href="#" class="portfolio__item">
-                <img src="img/portfolio-09.jpg" alt="" class="portfolio__img">
-            </a>
-            
-            <!-- Portfolio item 0 0-->
-            <a href="#" class="portfolio__item">
-                <img src="img/portfolio-10.jpg" alt="" class="portfolio__img">
-            </a>
+
+
+        <div class="content">
+            <h4>Hello, my name is</h4>
+            <h1>Preda <span>David</span></h1>
+            <h3>I'am a Game Designer</h3>
+
         </div>
-    </section>
-    
-    
-    <!-- Footer -->
-    <footer class="footer">
-        <!-- replace with your own email address -->
-        <a href="mailto:davidpreda.2021@gmail.com" class="footer__link">Contact me </a>
-        <!--
-        <ul class="social-list">
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://codepen.io">
-                    <i class="fab fa-codepen"></i>
-                </a>
-            </li>
-            <li class="social-list__item">
-                <a class="social-list__link" href="http://dribbble.com">
-                    <i class="fab fa-dribbble"></i>
-                </a>
-            </li>
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://twitter.com">
-                    <i class="fab fa-twitter"></i>
-                </a>
-            </li>
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://github.com">
-                    <i class="fab fa-github"></i>
-                </a>
-            </li>
-        </ul>-->
-    </footer>
-    
-    
-    <script src="js/index.js"></script>
-    
+
+    </div>
+
+
+
+
+
+
+
+
+    	<!----About section start---->
+	<section class="about">
+		<div class="main">
+			<img src="img/main-img.png">
+			<div class="about-text">
+				<h2>About Me</h2>
+				<h5>Game developer <span>& Programmer</span></h5>
+				<p>I am a front-end web developer. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.A responsive design makes your website accessible to all users, regardless of their device.</p>
+				<button type="button">Let's Talk</button>
+			</div>
+		</div>
+	</section>
+
+	<!-----service section start----------->
+	<div class="service">
+		<div class="title">
+			<h2>Previous Project</h2>
+		</div>
+
+		<div class="box">
+			<div class="card card1">
+				<h5>Fireworks Tycoon</h5>
+				<div class="pra">
+					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card card2">
+				<h5>Street Punks 2D</h5>
+				<div class="pra">
+					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card card3">
+				<h5>Some other game</h5>
+				<div class="pra">
+					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!------Contact Me------>
+	<div class="contact-me">
+		<p>Let's have a chat together.</p>
+		<a class="button-two" href="#">Hire Me</a>
+	</div>
+
+	<!------footer start--------->
+	<footer>
+		<p>Preda David</p>
+		<p>For more HTML, CSS, and coding tutorial - please click on the link below to subscribe to my channel:</p>
+		<div class="social">
+			<a href="#"><i class="fab fa-facebook-f"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-dribbble"></i></a>
+		</div>
+		<p class="end">CopyRight By Preda David</p>
+	</footer>
+
+
+
+
+
 </body>
 </html>
+
+
