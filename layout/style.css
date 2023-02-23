@@ -273,9 +273,7 @@ p.text_content {
 
 /* Card */
 
-.service {
-    /* min-height: 75vh; */
-}
+
 
 .box{
 	display: flex;
@@ -431,6 +429,7 @@ h5{
 
     .explore-content{
         width: 100%;
+        padding: 10px;
     }
     .proiecte .col{
         width: 100%;
