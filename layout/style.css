@@ -82,9 +82,13 @@ header {
 }
 
 header.contact {
-    background-color: #323031;
     background-image: none;
+    background-color: #323031;
 }
+header.compostarea_productiva {
+    background-image: url('../imagini/compostarea_productiva_edit.jpg')
+}
+
 
 .line {
     width: 150px;
