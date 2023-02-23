@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="layout/style.css">
 </head>
 <body>
 
@@ -13,10 +13,11 @@
         <img src="imagini/logo.png" alt="" class="logo">
         <ul class="nav-links">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Tipuri de compostare</a></li>
-            <li><a href="#">Avantajele compostării</a></li>
-            <li><a href="#">Sfaturi și idei preconcepute</a></li>
-            <li class="ctn"><a href="#">Contact</a></li>
+            <li><a href="#tipuri_compost">Tipuri de compostare</a></li>
+            <li><a href="#de_ce">Avantajele compostării</a></li>
+            <li><a href="#sfaturi">Sfaturi și idei preconcepute</a></li>
+            <li><a href="#despre_noi">Cine suntem noi?</a></li>
+            <li class="ctn"><a href="pages/contact.html">Contact</a></li>
         </ul>
         <img src="imagini/menu.png" alt="" class="menu-btn">
     </nav>
@@ -32,7 +33,7 @@
     </header>
 
     <!-- Content -->
-    <section class="content">
+    <section class="content" id="tipuri_compost">
         <div class="title">
             <h1>Tipuri de Compostare</h1>
             <div class="line"></div>
@@ -40,85 +41,73 @@
 
         <div class="row">
             <div class="col">
-                <img src="imagini/m2.jpg" alt="">
+                <img src="imagini/compostare_colectiva.png" alt="">
                 <h4>Compostarea Colectivă</h4>
                 <p class="text_content">  Compostarea colectivă este indicată în spațiile aferente clădirilor de locuit sau în vecinătate  acestora. Se pot instala zone de compostare și în școli,grădinițe,gospodării cu grădini mici.</p>
-                <a href="#" class="ctn">Learn more</a>
+                <a href="#" class="ctn">Află mai mult.</a>
             </div>
             
             <div class="col">
-                <img src="imagini/m3.jpg" alt="">
+                <img src="imagini/compostarea_productiva.jpg" alt="">
                 <h4>Compostarea Productivă</h4>
                 <p class="text_content">Pentru a composta cât mai eficient,se aplică sistemul care funcționează în mod ideal cu cel putin 3 recipiente pentru compostare</p>
-                <a href="#" class="ctn">Learn more</a>
+                <a href="pages/compostare_productiva.html" class="ctn">Află mai mult.</a>
             </div>
         </div>
     </section>
 
-    <section class="explore">
+    <section class="explore" id="de_ce">
         <div class="explore-content">
             <h1>De ce să compostăm?</h1>
             <div class="line"></div>
             <p class="text_content">&emsp; În anumite condiții,se pot composta și este recomandată compostarea deșeurilor menajere biodegrabile și o parte din resturile verzi (iarbă și ceea ce rezultă din tăierea arbuștilor),în colectivitate.</p>
             <p class="text_content">&emsp; Ajunse la groapa de gunoi se descompun și produc metan,care este de până la 34 de ori mai puternic decât dioxidul de carbon.În loc să genereze metan,procesul de compostare transformă materialul organic în carbon stabil din sol,păstrând în același timp apa și nutrienții din deșeurile originale.</p>
-            <a href="#" class="ctn">Afla mai mult</a>
+            <a href="pages/avantaje.html" class="ctn">Afla mai mult</a>
         </div>
     </section>
 
-    <section class="proiecte">
-        <div class="row">
-            <div class="col content-col">
-                <h1>Sfaturi și idei preconcepute</h1>
-                <div class="line"></div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente cupiditate explicabo assumenda fugiat quam aspernatur rem quaerat magni, eius odio deleniti, itaque totam saepe expedita.</p>
-                <a href="#" class="ctn">Learn more</a>
-            </div>
-            <div class="col image-col">
-                <div class="image-gallery">
-                    <img src="imagini/m1.jpeg" alt="">
-                    <img src="imagini/m1.jpeg" alt="">
-                    <img src="imagini/m1.jpeg" alt="">
-                    <img src="imagini/m1.jpeg" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="service">
+    <div class="service" id="sfaturi">
 		<div class="title">
-			<h2>Previous Project</h2>
+			<h1>Sfaturi și idei preconcepute</h1>
 		</div>
+        <div class="line"></div>
 
 		<div class="box">
 			<div class="card card1">
-				<h5>Fireworks Tycoon</h5>
+				<h5>Miros neplăcut</h5>
 				<div class="pra">
-					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+					<p>Procesul de compostare are nevoie de oxigen pentru a se reliza în mod corect.În lipsa acestuia poate apărea mirosul neplăcut, dar un compost bine echilibrat și aerisit nu miroase deloc.
+                     
+                    </p>
 
 					<p style="text-align: center;">
-						<a class="button" href="#">Read More</a>
+						<a class="button" href="#">...</a>
 					</p>
 				</div>
 			</div>
 
 			<div class="card card2">
-				<h5>Street Punks 2D</h5>
+				<h5>Viermi sau insecte
+                </h5>
 				<div class="pra">
-					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+					<p>Acestea sunt organisme prezente în mod natural în compost, dar fără ele nu poate rezulta un compost sănătos. 
+                        De reținut însă că aceste vietăți nu vor părăsi niciodată compostul deoarece au nevoie de hrană.</p>
 
 					<p style="text-align: center;">
-						<a class="button" href="#">Read More</a>
+						<a class="button" href="#">...</a>
 					</p>
 				</div>
 			</div>
 
 			<div class="card card3">
-				<h5>Some other game</h5>
+				<h5>Gestionarea zonei
+                </h5>
 				<div class="pra">
-					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+					<p>Un proiect de compostare colectivă să se bazeze pe o echipă predefinită și cunoscută de către participanți.
+                         Cu cât instrucțiunile sunt precise și clare,cu atât vor putea fi urmate de către participanții și zona va fi întreținută!</p>
 
 					<p style="text-align: center;">
-						<a class="button" href="#">Read More</a>
+						<a class="button" href="#">...</a>
 					</p>
 				</div>
 			</div>
@@ -128,10 +117,38 @@
 	</div>
 
 
+    
+    <section class="proiecte" id="despre_noi">
+        <div class="row">
+            <div class="col content-col">
+                <h1>Cine suntem noi?</h1>
+                <!-- <div class="line"></div> -->
+                <p>Noi suntem un grup de elevi..... Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, sit! Nulla ex facilis officia odio eius veritatis repellat laudantium unde mollitia! Sunt perspiciatis minus obcaecati repellendus. Dicta ipsum laborum veritatis.</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="imagini/m1.jpeg" alt="">
+                    <img src="imagini/m1.jpeg" alt="">
+                    <img src="imagini/m1.jpeg" alt="">
+                    <img src="imagini/m1.jpeg" alt="">
+                    <img src="imagini/m1.jpeg" alt="">
+                    <img src="imagini/m1.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
     <section class="footer">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam non ipsum earum totam error ipsam accusantium voluptate inventore, aliquid eaque labore dignissimos quasi maiores dolor. Accusantium necessitatibus laudantium labore quae?
+        <p>Copyright 2023 - ...
         </p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, blanditiis?</p>
+
     </section>
 
     <script>
