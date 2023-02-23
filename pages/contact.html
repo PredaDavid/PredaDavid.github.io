@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv='cache-control' content='no-cache'> 
+<meta http-equiv='expires' content='0'> 
+<meta http-equiv='pragma' content='no-cache'>
+    <title>Document</title>
+    <link rel="stylesheet" href="../layout/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <img src="../imagini/logo.png" alt="" class="logo">
+        <ul class="nav-links">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#tipuri_compost">Tipuri de compostare</a></li>
+            <li><a href="#de_ce">Avantajele compostării</a></li>
+            <li><a href="#sfaturi">Sfaturi și idei preconcepute</a></li>
+            <li><a href="#despre_noi">Cine suntem noi?</a></li>
+            <li class="ctn"><a href="pages/contact.html">Contact</a></li>
+        </ul>
+        <img src="../imagini/menu.png" alt="" class="menu-btn">
+    </nav>
+
+
+    <header class="contact">
+        <div class="header-content">
+            <h2>2022-3-RO01-ESC30-SOL-000093179</h2>
+            <div class="line"></div>
+            <h1>”Nature-a source of education”</h1>
+            <h2>Liceul Ferdinand I</h2>
+            <div class="line"></div>
+            <h1> </h1>
+            <a href="https://www.facebook.com/profile.php?id=100089831623966" class="ctn">Vizitează pagina oficială de facebook</a>
+        </div>
+    </header>
+
+
+    <section class="footer">
+        <p>Copyright 2023 - Liceul Ferdinand I
+        </p>
+
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', ()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>

@@ -81,6 +81,11 @@ header {
 
 }
 
+header.contact {
+    background-color: #323031;
+    background-image: none;
+}
+
 .line {
     width: 150px;
     height: 4px;
