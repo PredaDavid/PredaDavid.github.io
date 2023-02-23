@@ -4,58 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/styles.css">
-    <title>Portfolio</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
-
-    <div class="hero">
-
-        <nav>
-            <h2 class="logo">Portfo<span>lio</span></h2>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-            <a href="#" class="btn">Subscribe</a>
-        </nav>
+    <nav class="navbar">
+        <img src="imagini/logo.png" alt="" class="logo">
+        <ul class="nav-links">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Tipuri de compostare</a></li>
+            <li><a href="#">Avantajele compostării</a></li>
+            <li><a href="#">Sfaturi și idei preconcepute</a></li>
+            <li class="ctn"><a href="#">Contact</a></li>
+        </ul>
+        <img src="imagini/menu.png" alt="" class="menu-btn">
+    </nav>
 
 
-        <div class="content">
-            <h4>Hello, my name is</h4>
-            <h1>Preda <span>David</span></h1>
-            <h3>I'am a Game Designer</h3>
+    <header>
+        <div class="header-content">
+            <h2>Conferința de lansare a proiectului</h2>
+            <div class="line"></div>
+            <h1>”Nature-a source of education”</h1>
+            <a href="#" class="ctn">Află mai mult...</a>
+        </div>
+    </header>
 
+    <!-- Content -->
+    <section class="content">
+        <div class="title">
+            <h1>Tipuri de Compostare</h1>
+            <div class="line"></div>
         </div>
 
-    </div>
+        <div class="row">
+            <div class="col">
+                <img src="imagini/m2.jpg" alt="">
+                <h4>Compostarea Colectivă</h4>
+                <p class="text_content">  Compostarea colectivă este indicată în spațiile aferente clădirilor de locuit sau în vecinătate  acestora. Se pot instala zone de compostare și în școli,grădinițe,gospodării cu grădini mici.</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+            
+            <div class="col">
+                <img src="imagini/m3.jpg" alt="">
+                <h4>Compostarea Productivă</h4>
+                <p class="text_content">Pentru a composta cât mai eficient,se aplică sistemul care funcționează în mod ideal cu cel putin 3 recipiente pentru compostare</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+        </div>
+    </section>
 
+    <section class="explore">
+        <div class="explore-content">
+            <h1>De ce să compostăm?</h1>
+            <div class="line"></div>
+            <p class="text_content">&emsp; În anumite condiții,se pot composta și este recomandată compostarea deșeurilor menajere biodegrabile și o parte din resturile verzi (iarbă și ceea ce rezultă din tăierea arbuștilor),în colectivitate.</p>
+            <p class="text_content">&emsp; Ajunse la groapa de gunoi se descompun și produc metan,care este de până la 34 de ori mai puternic decât dioxidul de carbon.În loc să genereze metan,procesul de compostare transformă materialul organic în carbon stabil din sol,păstrând în același timp apa și nutrienții din deșeurile originale.</p>
+            <a href="#" class="ctn">Afla mai mult</a>
+        </div>
+    </section>
 
+    <section class="proiecte">
+        <div class="row">
+            <div class="col content-col">
+                <h1>Sfaturi și idei preconcepute</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente cupiditate explicabo assumenda fugiat quam aspernatur rem quaerat magni, eius odio deleniti, itaque totam saepe expedita.</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="imagini/m1.jpeg" alt="">
+                    <img src="imagini/m1.jpeg" alt="">
+                    <img src="imagini/m1.jpeg" alt="">
+                    <img src="imagini/m1.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
 
-
-
-
-
-
-    	<!----About section start---->
-	<section class="about">
-		<div class="main">
-			<img src="img/main-img.png">
-			<div class="about-text">
-				<h2>About Me</h2>
-				<h5>Game developer <span>& Programmer</span></h5>
-				<p>I am a front-end web developer. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.A responsive design makes your website accessible to all users, regardless of their device.</p>
-				<button type="button">Let's Talk</button>
-			</div>
-		</div>
-	</section>
-
-	<!-----service section start----------->
-	<div class="service">
+    <div class="service">
 		<div class="title">
 			<h2>Previous Project</h2>
 		</div>
@@ -93,32 +122,25 @@
 					</p>
 				</div>
 			</div>
+
+            
 		</div>
 	</div>
 
-	<!------Contact Me------>
-	<div class="contact-me">
-		<p>Let's have a chat together.</p>
-		<a class="button-two" href="#">Hire Me</a>
-	</div>
 
-	<!------footer start--------->
-	<footer>
-		<p>Preda David</p>
-		<p>For more HTML, CSS, and coding tutorial - please click on the link below to subscribe to my channel:</p>
-		<div class="social">
-			<a href="#"><i class="fab fa-facebook-f"></i></a>
-			<a href="#"><i class="fab fa-instagram"></i></a>
-			<a href="#"><i class="fab fa-dribbble"></i></a>
-		</div>
-		<p class="end">CopyRight By Preda David</p>
-	</footer>
+    <section class="footer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam non ipsum earum totam error ipsam accusantium voluptate inventore, aliquid eaque labore dignissimos quasi maiores dolor. Accusantium necessitatibus laudantium labore quae?
+        </p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, blanditiis?</p>
+    </section>
 
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
 
-
-
-
+        menuBtn.addEventListener('click', ()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
 </body>
 </html>
-
-
