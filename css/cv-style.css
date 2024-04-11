@@ -6,7 +6,7 @@
 :root{
     --border: 3px solid rgb(221, 221, 221);
     --accent-color: rgb(58, 58, 58);
-    --link-accent-color: rgb(139, 85, 132);
+    --link-accent-color: rgb(135, 82, 185);
 }
 
 * {
@@ -179,10 +179,67 @@ a{
     font-weight: 400;
     text-decoration: none;
     color: var(--link-accent-color);
-    color: rebeccapurple;
 }
 
 a:hover {
     color: var(--accent-color);
     transition: all 0.3s ease;
+}
+
+/* download */
+
+.download-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+
+}
+
+.download {
+    background-color: white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 300;
+    text-decoration: none;
+
+}
+
+.download a {
+    margin: 30px 40px;
+}
+
+.download a:hover {
+    border-bottom: 3px solid var(--link-accent-color);
+    transition: all 0.3s ease;
+
+}
+
+/* print */
+@media print {
+    body {
+        zoom: 60%;
+    }
+    
+    .grid-container {
+        box-shadow: none;
+    }
+
+    .skills {
+        display: none;
+    }
+
+    .skills-container p{
+        margin: 20px 0px;
+    }
+
+    a {
+        color: rgb(127, 60, 189);
+    }
+
+    .download-wrapper {
+        display: none;
+    }
 }
