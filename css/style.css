@@ -5,7 +5,9 @@
 	box-sizing: border-box;
 	
 }
-
+body {
+	background-color: #f2f2f2 ;
+}
 html {
 	font-size: 10px;
 	font-family: 'Montserrat', sans-serif;
@@ -396,9 +398,9 @@ p {
 #projects .project-img img {
 	transition: 0.3s ease transform;
 }
-#projects .project-item:hover .project-img img {
+/* #projects .project-item:hover .project-img img {
 	transform: scale(1.1);
-}
+} */
 /* End Projects section */
 
 /* About Section */
